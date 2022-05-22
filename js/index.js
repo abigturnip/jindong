@@ -40,7 +40,7 @@ Interval = setInterval(autoloop, 2000);
 var h = document.querySelector(".h");
 var m = document.querySelector(".m");
 var s = document.querySelector(".s");
-var Time = +new Date("2022/5/22 14:44:00");
+var Time = +new Date("2022/5/23 16:20:00");
 countDown();
 function countDown() {
     var nowTime = +new Date(); //获得时间戳
